@@ -22,7 +22,7 @@ public class CoffeeOrder {
 
             System.out.println(selectedCoffee.getRecipeDescription());
 
-            System.out.println("Toplam ücret: " + selectedCoffee.getPrice() + " ₺");
+            System.out.println("Toplam ücret: " + selectedCoffee.getPrice() + " tl");
         } else {
             System.out.println("Geçersiz kahve numarası.");
         }

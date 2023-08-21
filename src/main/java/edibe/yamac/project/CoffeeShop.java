@@ -12,7 +12,7 @@ public class CoffeeShop {
     public void displayMenu() { // this method created for showing the coffee menu to user 
         System.out.println("Kahve Menüsü:");
         for (Map.Entry<Integer, Coffee> entry : coffeeData.getCoffeeMenu().entrySet()) {
-            System.out.println(entry.getKey() + ". " + entry.getValue().getName() + " (" + entry.getValue().getPrice() + " ₺)");
+            System.out.println(entry.getKey() + ". " + entry.getValue().getName() + " (" + entry.getValue().getPrice() + " tl)");
         }
     }
 
